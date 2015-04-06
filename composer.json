@@ -1,0 +1,14 @@
+{
+  "name": "dlundgren/go-aop-test",
+  "description": "GO! AOP framework testing",
+  "minimum-stability" : "dev",
+  "require": {
+    "doctrine/annotations":"@dev",
+    "lisachenko/go-aop-php": "@dev"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Application\\" : "src"
+    }
+  }
+}
